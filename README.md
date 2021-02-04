@@ -47,3 +47,27 @@ git commit -m "cree mi primer archivo"
 ```
 
 > sabrias explicar que sucedio ❓
+
+
+## Mas cambios
+
+```bash
+# agreguemos lineas al archivo
+
+echo "mi primer linea" >> file.txt
+
+# comparemos
+
+git diff
+
+```
+
+
+> comandos aprendidos hasta el momento
+> - git status
+> - git diff
+> - git add <ARCHIVO>
+> - git add .
+> - git commit -m "tu mensaje"
+
+
