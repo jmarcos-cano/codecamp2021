@@ -105,12 +105,31 @@ git remote add origin <URLDEGITHUB>
 # o cambiar si ya existia una
 git remote set-url origin <URLDEGITHUB>
 
+# chequear el remoto
+git remote -v
 
 # hagamos push de nuestros cambios locales al remoto
 
 git push origin main
 ```
 
-> 💡 la palabra 'origin' es un alias al remoto.
+> 💡 la palabra 'origin' es un alias al remoto, para poder distinguir entre multiples remotos
 
 
+# Branches
+
+![branches](.docs/branches.png)
+
+```bash
+# crear branch
+
+git branch  <BRANCH>
+
+# cambiar a ese branch
+git checkout <BRANCH>
+
+
+# creemos un nuevo archivo
+
+touch Patchwork/contributors/add-<GH_USERNAME>.txt
+```
