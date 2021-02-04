@@ -60,7 +60,16 @@ echo "mi primer linea" >> file.txt
 
 git diff
 
+# mismos comandos previos
+
+
+# revisa el historial
+
+git log
+
 ```
+
+
 
 
 > comandos aprendidos hasta el momento
@@ -72,3 +81,18 @@ git diff
 
 
 ---
+
+# Remotos
+
+crea tu cuenta en [github.com](github.com) o [gitlab.com](gitlab.com)
+
+```bash
+# actualiza tu usuario para que cada que hagas un commit quede rastreado tu nombre y correo
+git config --global user.name "username"
+
+git config --global user.email "tuemail@example.com"
+
+```
+
+
+![1](.docs/remotes.png)
