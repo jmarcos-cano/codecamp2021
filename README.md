@@ -131,5 +131,8 @@ git checkout <BRANCH>
 
 # creemos un nuevo archivo
 
-touch Patchwork/contributors/add-<GH_USERNAME>.txt
+touch my-file-in-a-branch.txt
 ```
+---
+# Pull Requests
+
