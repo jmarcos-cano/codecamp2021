@@ -14,7 +14,7 @@ git config --global user.email "tuemail@example.com"
 
 ```
 
-
+---
 
 # Crear un repositorio
 
@@ -31,7 +31,7 @@ git init
 
 > 💡 Listo! eso es todo
 
-
+---
 # Commit
 
 ```bash
@@ -71,3 +71,4 @@ git diff
 > - git commit -m "tu mensaje"
 
 
+---
