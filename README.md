@@ -96,3 +96,21 @@ git config --global user.email "tuemail@example.com"
 
 
 ![1](.docs/remotes.png)
+
+
+```bash
+# agregar la URL remota
+git remote add origin <URLDEGITHUB>
+
+# o cambiar si ya existia una
+git remote set-url origin <URLDEGITHUB>
+
+
+# hagamos push de nuestros cambios locales al remoto
+
+git push origin main
+```
+
+> 💡 la palabra 'origin' es un alias al remoto.
+
+
