@@ -1,7 +1,6 @@
 # Code Camp 2021
 
 
-
 # Initial steps (configuration)
 
 ```bash
